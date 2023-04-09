@@ -11,7 +11,7 @@ public class ArraysClass {
 		
 		System.out.println("Arrays: " + Arrays.toString(arr));
 		
-/*		Arrays.sort(arr, 0, 5);
+		Arrays.sort(arr, 0, 5);
 		System.out.println("Half Sorted Arrays: " + Arrays.toString(arr));
 		
 		Arrays.sort(arr);
@@ -22,7 +22,7 @@ public class ArraysClass {
 		System.out.println("Copies arrays: " + Arrays.toString(copyArr));
 		
 		Arrays.fill(arr, 0, 3, 5);
-		System.out.println("Arrays filled with 5 from 0 to 3: "+ Arrays.toString(arr));*/
+		System.out.println("Arrays filled with 5 from 0 to 3: "+ Arrays.toString(arr));
 		
 		Integer[] newArr = ArrayUtils.toObject(arr);
 		
